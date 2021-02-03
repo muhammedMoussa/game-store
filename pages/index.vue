@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <FeaturedGame />
+    <FeaturedGame :game="featured"/>
     <MostRecommended />
     <MostPopular />
     <ul>
@@ -26,8 +26,13 @@ export default {
     const games = await $content('games', params.slug)
       .fetch()
 
+    const featured = await $content('games', params.slug)
+      .where({ tags: { $contains: ['featured'] } })
+      .only(['title', 'description', 'img', 'slug', 'author'])
+      .fetch()
     return {
-      games
+      games,
+      featured
     }
   },
   components: {
