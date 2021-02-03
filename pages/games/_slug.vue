@@ -1,10 +1,13 @@
 <template>
   <div class="game__container">
+    <img
+      :src="game.img"
+      :alt="game.alt"
+      class=""
+    >
     <nuxt-content :document="game" />
-    <pre> {{ game }} </pre>
-
     <section>
-        <MostRecommended />
+      <MostRecommended />
     </section>
   </div>
 </template>
@@ -12,14 +15,14 @@
 import MostRecommended from '../../components/MostRecommended'
 
 export default {
-    async asyncData({ $content, params }) {
-      const game = await $content('games', params.slug).fetch()
+  components: {
+    MostRecommended
+  },
+  async asyncData ({ $content, params }) {
+    const game = await $content('games', params.slug).fetch()
 
-      return { game }
-    },
-    components: {
-        MostRecommended
-    }
+    return { game }
+  }
 }
 </script>
 

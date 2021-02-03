@@ -1,5 +1,5 @@
 <template>
-  <div class="md:container md:mx-auto bg-white shadow-lg text-center">
+  <div class="md:container md:mx-auto bg-white shadow-lg">
     <AppHeader />
     <Nuxt />
   </div>
