@@ -8,7 +8,7 @@
 export default {
   props: {
     game: {
-      type: Object,
+      type: Array,
       default: () => null
     }
   }

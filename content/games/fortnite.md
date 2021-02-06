@@ -1,14 +1,14 @@
 ---
-title: Cross Fire
-description: CrossFire is an online tactical first-person shooter game developed by Smilegate Entertainment for Microsoft Windows. It was first released in South Korea on May 3, 2007.
-img: https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/CrossFire_%28video_game%29_logo.png/220px-CrossFire_%28video_game%29_logo.png
-alt: Cross Fire
-author: Smilegate Entertainment
-downloads: 1000K
+title: Fortnite
+description: Fortnite is an online video game developed by Epic Games and released in 2017. It is available in three distinct game mode versions that otherwise share the same general gameplay and game engine Fortnite Save the World.
+img: https://static-assets-prod.epicgames.com/fortnite/static/webpack/8f9484f10eb14f85a189fb6117a57026.jpg
+alt: Fortnite
+author: Fortnite
+downloads: 1500K
 rat: 4.7
 tags: 
-  - featured
-  - shoots
+  - pupular
+  - fight
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

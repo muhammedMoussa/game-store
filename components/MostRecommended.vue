@@ -1,11 +1,21 @@
 <template>
-  <div class="mostRecommended__container border-black">
-    <h1>mostRecommended__container</h1>
+  <div class="flex mostRecommended__container border-black">
+    <GameCard v-for="game of games" :key="game.slug" :game="game"/>
   </div>
 </template>
 
 <script>
-export default {
+import GameCard from './GameCard'
 
+export default {
+  props: {
+    games: {
+      type: Array,
+      default: () => null
+    }
+  },
+  components: {
+    GameCard
+  }
 }
 </script>

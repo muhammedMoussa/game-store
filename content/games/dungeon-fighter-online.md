@@ -5,6 +5,7 @@ img: https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Dfo_new_logo.jpg/220px
 alt: Dungeon Fighter Online
 author: Neople
 downloads: 90K
+rate: 4.8
 tags: 
   - recommended
   - fighting
